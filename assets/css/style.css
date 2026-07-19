@@ -413,3 +413,67 @@ a{color:inherit}
 .subscribe-button{
     width:100%;
 }
+.policy-roundtable-card {
+  background: #f3eee8;
+  border: 1px solid #ddd3c8;
+  border-radius: 22px;
+  padding: 32px;
+}
+
+.policy-roundtable-card h3 {
+  margin: 10px 0 16px;
+  font-size: 1.7rem;
+  line-height: 1.25;
+  color: #25352c;
+}
+
+.policy-roundtable-card p {
+  margin: 0 0 14px;
+  line-height: 1.7;
+  color: #4d564f;
+}
+
+.programme-label {
+  display: inline-block;
+  padding: 7px 12px;
+  border-radius: 999px;
+  background: #dce7df;
+  color: #345443;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.programme-stat {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-top: 24px;
+  padding-top: 20px;
+  border-top: 1px solid #d8cec3;
+}
+
+.programme-stat-number {
+  font-size: 2.5rem;
+  line-height: 1;
+  font-weight: 700;
+  color: #315942;
+}
+
+.programme-stat-text {
+  max-width: 220px;
+  font-size: 0.95rem;
+  line-height: 1.4;
+  color: #59625b;
+}
+
+@media (max-width: 640px) {
+  .policy-roundtable-card {
+    padding: 24px;
+  }
+
+  .programme-stat {
+    align-items: flex-start;
+  }
+}
