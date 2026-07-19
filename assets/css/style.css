@@ -391,3 +391,25 @@ a{color:inherit}
     grid-template-columns: 1fr;
   }
 }
+.subscribe-box{
+    margin-bottom:40px;
+    padding:28px;
+    border:1px solid rgba(255,255,255,.15);
+    border-radius:18px;
+    text-align:left;
+}
+
+.subscribe-box h3{
+    margin:8px 0 12px;
+    color:#fff;
+}
+
+.subscribe-box p{
+    margin-bottom:18px;
+    line-height:1.6;
+    color:rgba(255,255,255,.8);
+}
+
+.subscribe-button{
+    width:100%;
+}
