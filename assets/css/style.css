@@ -535,3 +535,14 @@ a{color:inherit}
 .snapshot-content {
     margin-top: 1.5rem;
 }
+
+.join-button.secondary{
+    background:transparent;
+    color:#fff;
+    border:1.5px solid rgba(255,255,255,.35);
+}
+
+.join-button.secondary:hover{
+    background:rgba(255,255,255,.08);
+    border-color:rgba(255,255,255,.65);
+}
