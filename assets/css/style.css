@@ -72,10 +72,8 @@ a{color:inherit}
 .cover h1{font-family:var(--serif);font-size:clamp(3.4rem,8vw,7.2rem);line-height:.95;max-width:900px;margin:.25em 0}
 .dek{max-width:700px;font-size:1.18rem;color:rgba(255,255,255,.84)}
 .button{
-  display:block;
-  width:100%;
-  box-sizing:border-box;
-  padding:18px 20px;
+  display:inline-block;
+  padding:13px 24px;
   border-radius:999px;
   text-decoration:none;
   text-align:center;
@@ -95,9 +93,6 @@ a{color:inherit}
   border:1px solid rgba(255,255,255,.35);
 }
 
-.subscribe-button{
-  width:100%;
-}
 .cover-stat{border-top:1px solid rgba(255,255,255,.4);padding-top:22px}
 .cover-stat-value{display:block;font-family:var(--serif);font-size:4.3rem;line-height:1}
 .cover-stat-label{display:block;margin-top:10px;color:rgba(255,255,255,.78)}
