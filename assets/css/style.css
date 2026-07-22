@@ -73,6 +73,7 @@ a{color:inherit}
 .dek{max-width:700px;font-size:1.18rem;color:rgba(255,255,255,.84)}
 .button{
   display:inline-block;
+  width:fit-content;
   padding:13px 24px;
   border-radius:999px;
   text-decoration:none;
@@ -151,8 +152,14 @@ a{color:inherit}
 .join-section{padding:90px 0}
 .join-grid{display:grid;grid-template-columns:1.4fr .6fr;gap:70px;align-items:center}
 .join-section h2{font-family:var(--serif);font-size:clamp(2.2rem,4.4vw,4.2rem);line-height:1.08;margin:.2em 0}
-.join-actions{display:grid;gap:12px}
-.join-actions a{display:block;text-decoration:none;border:1px solid rgba(255,255,255,.3);border-radius:999px;padding:14px 18px;text-align:center;font-weight:700}
+.join-actions{
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  gap:12px;
+}
+.join-actions a{display:inline-block;
+width:fit-content;text-decoration:none;border:1px solid rgba(255,255,255,.3);border-radius:999px;padding:14px 18px;text-align:center;font-weight:700}
 .join-actions a:hover{background:white;color:var(--olive-dark)}
 .footer{background:#181d17;color:white;padding:38px 0}
 .footer-grid{display:flex;justify-content:space-between;gap:30px}
@@ -505,7 +512,7 @@ a{color:inherit}
 @media (max-width: 640px) {
   .policy-roundtable-card {
     padding: 24px;
-  }.join-button
+  }
 
   .programme-stat {
     align-items: flex-start;
