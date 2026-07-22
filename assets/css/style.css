@@ -71,8 +71,33 @@ a{color:inherit}
 .eyebrow,.section-kicker{text-transform:uppercase;letter-spacing:.16em;font-size:.76rem;font-weight:800}
 .cover h1{font-family:var(--serif);font-size:clamp(3.4rem,8vw,7.2rem);line-height:.95;max-width:900px;margin:.25em 0}
 .dek{max-width:700px;font-size:1.18rem;color:rgba(255,255,255,.84)}
-.button{display:inline-block;padding:13px 20px;border-radius:999px;text-decoration:none;font-weight:700;margin-top:18px}
-.button-light{background:white;color:var(--olive-dark)}
+.button{
+  display:block;
+  width:100%;
+  box-sizing:border-box;
+  padding:18px 20px;
+  border-radius:999px;
+  text-decoration:none;
+  text-align:center;
+  font-weight:700;
+  margin-top:18px;
+}
+
+.button-light{
+  background:#fff;
+  color:var(--olive-dark);
+  border:1px solid #fff;
+}
+
+.button-secondary{
+  background:transparent;
+  color:#fff;
+  border:1px solid rgba(255,255,255,.35);
+}
+
+.subscribe-button{
+  width:100%;
+}
 .cover-stat{border-top:1px solid rgba(255,255,255,.4);padding-top:22px}
 .cover-stat-value{display:block;font-family:var(--serif);font-size:4.3rem;line-height:1}
 .cover-stat-label{display:block;margin-top:10px;color:rgba(255,255,255,.78)}
