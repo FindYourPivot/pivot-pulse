@@ -413,6 +413,33 @@ a{color:inherit}
 .subscribe-button{
     width:100%;
 }
+.button{
+    display:block;
+    width:100%;
+    padding:18px 20px;
+    border-radius:999px;
+    text-decoration:none;
+    text-align:center;
+    font-weight:700;
+    font-size:1.1rem;
+    transition:all .25s ease;
+}
+
+.button-light{
+    background:#fff;
+    color:var(--olive-dark);
+}
+
+.button-secondary{
+    background:transparent;
+    color:#fff;
+    border:1.5px solid rgba(255,255,255,.35);
+}
+
+.button-secondary:hover{
+    background:rgba(255,255,255,.08);
+    border-color:rgba(255,255,255,.6);
+}
 .policy-roundtable-card {
   background: #f3eee8;
   border: 1px solid #ddd3c8;
