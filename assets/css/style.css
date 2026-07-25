@@ -353,17 +353,16 @@ width:fit-content;text-decoration:none;border:1px solid rgba(255,255,255,.3);bor
   letter-spacing: 0.03em;
 }
 .ecosystem-note {
-  margin-bottom: 8px;
-  font-size: 0.78rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--lime);
+    grid-column: 1 / -1;
+    max-width: 100%;
+    margin-top: 32px;
+    color: rgba(255,255,255,.78);
+    line-height: 1.7;
 }
 
 
 .community-partners-card {
-  grid-column: span 3;
+    grid-column: 2 / span 2;
 }
 
 .community-partner-groups {
