@@ -637,7 +637,7 @@ width:fit-content;text-decoration:none;border:1px solid rgba(255,255,255,.3);bor
     }
 }
 .microsoft-spotlight{
-    padding:48px 0 56px;
+    padding:72px 0 64px;
     border-top:1px solid var(--line);
     border-bottom:1px solid var(--line);
     background:var(--pivot-lavender);
@@ -673,8 +673,9 @@ width:fit-content;text-decoration:none;border:1px solid rgba(255,255,255,.3);bor
 }
 
 .microsoft-spotlight-copy .section-kicker{
-    margin:0 0 10px;
-    color:var(--pivot-dark);
+    color:var(--pivot-olive);
+    font-weight:700;
+    letter-spacing:.12em;
 }
 
 .microsoft-spotlight-statement{
