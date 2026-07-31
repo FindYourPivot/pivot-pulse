@@ -104,9 +104,14 @@ a{color:inherit}
 }
 
 .button-light{
-  background:#fff;
-  color:var(--olive-dark);
-  border:1px solid #fff;  
+    background: var(--pivot-lime);
+    color: var(--pivot-dark);
+    border: none;
+}
+
+.button-light:hover{
+    background: var(--pivot-lime-soft);
+    color: var(--pivot-dark);
 }
 
 .button-secondary{
@@ -143,7 +148,7 @@ a{color:inherit}
 .voice-card{background:#f5f0f7;padding:clamp(28px,5vw,58px);border-radius:24px}
 .voice-card blockquote{font-family:var(--serif);font-size:clamp(1.65rem,3vw,2.7rem);line-height:1.25;margin:0 0 1em}
 .secondary-quote{border-top:1px solid rgba(46,56,40,.18);padding-top:30px!important;margin-top:30px!important}
-.lesson-list{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;list-style:none;padding:0;margin:26px 0}
+.lesson-list{display:grid;grid-template-columns:repeat(3,1fr);gap:15px;list-style:none;padding:0;margin:26px 0}
 .lesson-list li{background:white;border-radius:12px;padding:16px;font-weight:700}
 .voice-close{font-weight:700}
 .programme-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
@@ -635,7 +640,7 @@ width:fit-content;text-decoration:none;border:1px solid rgba(255,255,255,.3);bor
     padding:48px 0 56px;
     border-top:1px solid var(--line);
     border-bottom:1px solid var(--line);
-    background:var(--paper);
+    background:var(--pivot-lavender);
 }
 
 .microsoft-spotlight-grid{
@@ -669,7 +674,7 @@ width:fit-content;text-decoration:none;border:1px solid rgba(255,255,255,.3);bor
 
 .microsoft-spotlight-copy .section-kicker{
     margin:0 0 10px;
-    color:var(--muted);
+    color:var(--pivot-dark);
 }
 
 .microsoft-spotlight-statement{
@@ -677,7 +682,7 @@ width:fit-content;text-decoration:none;border:1px solid rgba(255,255,255,.3);bor
     font-size:clamp(1.55rem,2.4vw,2.25rem);
     line-height:1.38;
     letter-spacing:-.02em;
-    color:var(--ink);
+    color:var(--pivot-olive-dark);
 }
 
 @media(max-width:900px){
