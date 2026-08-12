@@ -876,3 +876,9 @@ width:fit-content;text-decoration:none;border:1px solid rgba(255,255,255,.3);bor
     letter-spacing:.12em;
     text-transform:uppercase;
 }
+.section.innovation{
+    background:#fff;
+    padding:72px 0;
+    border-top:1px solid var(--line);
+    border-bottom:1px solid var(--line);
+}
