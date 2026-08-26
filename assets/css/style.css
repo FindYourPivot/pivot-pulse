@@ -151,6 +151,9 @@ a{color:inherit}
 .lesson-list{display:grid;grid-template-columns:repeat(3,1fr);gap:15px;list-style:none;padding:0;margin:26px 0}
 .lesson-list li{background:white;border-radius:12px;padding:16px;font-weight:700}
 .voice-close{font-weight:700}
+#programmes .shell{
+    max-width:1100px;
+}
 .programme-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
 .programme-card{position:relative;background:var(--paper);border:1px solid var(--line);border-radius:20px;padding:30px;min-height:290px}
 .programme-card h3{font-family:var(--serif);font-size:2rem;margin:.2em 0}
