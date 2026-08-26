@@ -882,3 +882,14 @@ width:fit-content;text-decoration:none;border:1px solid rgba(255,255,255,.3);bor
     border-top:1px solid var(--line);
     border-bottom:1px solid var(--line);
 }
+.community-proof{
+  margin-top:24px;
+  max-width:850px;
+  font-size:1rem;
+  line-height:1.65;
+  color:rgba(255,255,255,.88);
+}
+
+.community-proof strong{
+  color:#fff;
+}
