@@ -199,7 +199,7 @@ width:fit-content;text-decoration:none;border:1px solid rgba(255,255,255,.3);bor
 
 .snapshot {
   padding: 78px 0;
-  background: #f7f7f2;
+  background: #ffffff;
   color: #2f3b27;
 }
 
@@ -765,29 +765,13 @@ width:fit-content;text-decoration:none;border:1px solid rgba(255,255,255,.3);bor
         padding:32px;
     }
 }
-/* ===========================
-   THIS MONTH AT PIVOT
-=========================== */
 
-#this-month{
-    background:#FAFDE8;
-    border-top:1px solid #E8EDC8;
-    border-bottom:1px solid #E8EDC8;
-}
-
-#this-month .section-heading-row{
-    margin-bottom:48px;
-}
-
-#this-month .programme-card{
-    background:#FFFFFF;
-}
 /* ===================================
    ECOSYSTEM IMAGE SECTION
 =================================== */
 
 .ecosystem-section{
-    background:#ffffff;
+    background:#f7f7f2;
     color:var(--pivot-dark);
     border-top:1px solid var(--line);
     border-bottom:1px solid var(--line);
