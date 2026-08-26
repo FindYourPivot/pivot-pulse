@@ -151,7 +151,14 @@ a{color:inherit}
 .lesson-list{display:grid;grid-template-columns:repeat(3,1fr);gap:15px;list-style:none;padding:0;margin:26px 0}
 .lesson-list li{background:white;border-radius:12px;padding:16px;font-weight:700}
 .voice-close{font-weight:700}
-.programme-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+.programme-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:18px;
+    max-width:1000px;
+    margin-left:auto;
+    margin-right:auto;
+}
 .programme-card{position:relative;background:var(--paper);border:1px solid var(--line);border-radius:20px;padding:30px;min-height:290px}
 .programme-card h3{font-family:var(--serif);font-size:2rem;margin:.2em 0}
 .programme-card ul{padding-left:20px;color:var(--muted)}
@@ -762,23 +769,7 @@ width:fit-content;text-decoration:none;border:1px solid rgba(255,255,255,.3);bor
         padding:32px;
     }
 }
-/* ===========================
-   THIS MONTH AT PIVOT
-=========================== */
 
-#this-month{
-    background:#FAFDE8;
-    border-top:1px solid #E8EDC8;
-    border-bottom:1px solid #E8EDC8;
-}
-
-#this-month .section-heading-row{
-    margin-bottom:48px;
-}
-
-#this-month .programme-card{
-    background:#FFFFFF;
-}
 /* ===================================
    ECOSYSTEM IMAGE SECTION
 =================================== */
